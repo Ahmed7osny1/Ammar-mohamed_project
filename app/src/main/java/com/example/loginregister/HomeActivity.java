@@ -46,7 +46,7 @@ public class HomeActivity extends AppCompatActivity {
                 t.show();
 
 
-                Intent intent = new Intent(getApplicationContext(),ListActivity.class);
+                Intent intent = new Intent(getApplicationContext(),PostActivity.class);
                 startActivity(intent);
 
             }
